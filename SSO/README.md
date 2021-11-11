@@ -18,3 +18,6 @@
 * Automatic logon with current username and password
 * User Configuration – Policies – Administrative Templates – Windows Components – Remote Desktop Services – Remote Desktop Connection Client - Specify SHA1 thumbprints of certificates representing trusted .rdp publishers
 * THUMBPRINT HERE
+5. Startmenu Integration Windows 1 Clients
+* User Configuration – Policies – Administrative Templates – Windows Components – Remote Desktop Services – RemoteApp and Desktop Connections - Specify the default connection URL
+* https://rds-wa1.rds.lab/rdweb/Feed/webfeed.aspx
