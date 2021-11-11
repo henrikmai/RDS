@@ -11,3 +11,6 @@ https://docs.microsoft.com/en-us/fslogix/overview
 
 ###### RDS Networkports
 https://social.technet.microsoft.com/wiki/contents/articles/16164.rds-2012-which-ports-are-used-during-deployment.aspx
+
+###### Disable TLS1 & 2
+https://saputra.org/threads/disable-tls-1-1-and-1-0-on-windows-server-2019-with-iis-10-0.148/
