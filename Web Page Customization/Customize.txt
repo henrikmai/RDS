@@ -1,0 +1,20 @@
+- Austausch des Logos auf den RDS-Gateway unter
+    "C:\Windows\Web\RDWeb\Pages\images\logo_02.png"
+
+- Anpassen der Texte in "C:\Windows\Web\RDWeb\Pages\en-US\RDWAStrings.xml"
+    <string id="HeadingRDWA">Web Access für Remotedesktop der RDS LAB GmbH</string>
+    <string id="HeadingApplicationName">RDS 2019 Umgebung</string>
+
+- Workspacename Anpassen   
+    Set-RDWorkspace -Name "RDS Demo Lab" -ConnectionBroker rds-cb1.rds.lab
+
+- Passwort Reset aktivieren
+    - IIS > Default Web Page > RDWeb > Pages > Application Settings
+        - PasswordChangeEnabled = true
+
+#####################
+# Redirect zu RDWeb #
+# Powershell        #
+#####################
+
+Set-WebConfiguration system.webServer/httpRedirect "IIS:\sites\Default Web Site" -Value @{enabled="true";destination="https://rds-cb1.rds.lab/rdweb";exactDestination="false";httpResponseStatus="Found"}
