@@ -8,3 +8,6 @@ https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/c
 
 ###### What is FSLogix?
 https://docs.microsoft.com/en-us/fslogix/overview
+
+###### RDS Networkports
+https://social.technet.microsoft.com/wiki/contents/articles/16164.rds-2012-which-ports-are-used-during-deployment.aspx
