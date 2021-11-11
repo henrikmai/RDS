@@ -1,8 +1,8 @@
 1. copy web.config to C:\Windows\Web\RDWeb\Pages
 2. copy default.aspx to C:\Windows\Web\RDWeb\Pages\en-US
 3. create a GPO for Computer
-    a. Computer Configuration – Policies – Administrative Templates – System – Credentials Delegation - Allow delegation default credentials with NTLM-only server authentication
-        I. TERMSRV/rds-cb1.rds.lab
+    Computer Configuration – Policies – Administrative Templates – System – Credentials Delegation - Allow delegation default credentials with NTLM-only server authentication
+        TERMSRV/rds-cb1.rds.lab
         II. TERMSRV/*.rds.lab
         III. TERMSRV/*
     b. Computer Configuration – Policies – Administrative Templates – System – Credentials Delegation - Allow delegating default credentials
