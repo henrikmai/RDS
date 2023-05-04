@@ -10,7 +10,7 @@
 * Value: 1
  * Computer Configuration – Policies – Administrative Templates – Windows Components – Internet Explorer – Internet Control Panel – Security Page - Trusted Sites Zones  - Logon options
 * Automatic logon with current username and password
-4. create a GPO User
+4. create a GPO for User
 * User Configuration – Policies – Administrative Templates – Windows Components – Internet Explorer – Internet Control Panel – Security Page - Site to Zone Assignment List
 * *.rds.lab
 * Value: 1
