@@ -17,4 +17,4 @@
 # Powershell        #
 #####################
 
-Set-WebConfiguration system.webServer/httpRedirect "IIS:\sites\Default Web Site" -Value @{enabled="true";destination="https://rds-cb1.rds.lab/rdweb";exactDestination="false";httpResponseStatus="Found"}
+Set-WebConfiguration system.webServer/httpRedirect "IIS:\sites\Default Web Site" -Value @{enabled="true";destination="https://rds-wa1.rds.lab/rdweb";exactDestination="false";httpResponseStatus="Found"}
