@@ -10,3 +10,9 @@ Get-RDWebClientPackage
 Import-RDWebClientBrokerCert C:\RDBrokerCert.cer
 
 Publish-RDWebClientPackage -Type Production -Latest
+
+# URLs
+# Production:
+https://RDWebFQDN.server.name/RDWeb/webclient/index.html
+# Test
+https://RDWebFQDN.server.name/RDWeb/WebClient-Test/index.html
