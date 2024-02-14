@@ -15,6 +15,9 @@ https://social.technet.microsoft.com/wiki/contents/articles/16164.rds-2012-which
 ###### Disable TLS1 & 2
 https://saputra.org/threads/disable-tls-1-1-and-1-0-on-windows-server-2019-with-iis-10-0.148/
 
+###### Personal Session Desktop
+https://microsoftplatform.blogspot.com/2015/06/new-rds-deployment-model-personal.html
+
 ###### Microsoft Edge Auto Launch .rdp Files
 https://techcommunity.microsoft.com/t5/enterprise/always-open-specific-file-types/m-p/1555442/highlight/true#M2221
 
